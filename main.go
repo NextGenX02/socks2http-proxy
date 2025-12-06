@@ -28,6 +28,7 @@ func main() {
 
 	httpProxySrv := goproxy.NewProxyHttpServer()
 	httpProxySrv.Verbose = true
+	httpProxySrv.AllowHTTP2 = true
 
 	httpProxySrv.Tr = &http.Transport{
 		Dial:                  socksDialer.Dial, //TODO:Deprecated Fix later
