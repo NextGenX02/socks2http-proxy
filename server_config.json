@@ -1,0 +1,5 @@
+{
+  "socks_proxy_addr": "127.0.0.1:20593",
+  "http_port": "9042",
+  "http_host": "127.0.0.1"
+}
